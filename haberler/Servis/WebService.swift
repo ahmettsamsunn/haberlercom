@@ -16,7 +16,7 @@ class Webservice  {
      
      let task = URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
      if let error = error {
-     print("Error with fetching films: \(error)")
+     print("Error : \(error)")
      return
      }
      
