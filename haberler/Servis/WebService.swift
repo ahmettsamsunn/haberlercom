@@ -38,38 +38,7 @@ class Webservice  {
      }
      
      
-     
-     /*  func verileriçek(urlString : String) {
-      if let url = URL(string: urlString  ){
-      let session = URLSession(configuration: .default)
-      let task  = session.dataTask(with: url) { data, response, error in
-      if error != nil {
-      print(error?.localizedDescription ?? "hata")
-      }else if error == nil {
-      let decoder = JSONDecoder()
-      if let safeData = data {
-      do{
-      let resultss = try decoder.decode(Haberler.self, from: safeData)
-      
-      print("başarılı")
-      DispatchQueue.main.sync {
-      self.HABER = resultss.news
-      }
-      
-      
-      print(self.HABER[0].title)
-      
-      
-      }catch{
-      print(error.localizedDescription)
-      }
-      }
-      }
-      }
-      task.resume()
-      }
-      
-      }*/
+ 
      
      }
 
