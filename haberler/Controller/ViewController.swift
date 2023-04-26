@@ -22,6 +22,7 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
                    DispatchQueue.main.async {
                        self?.tableview.reloadData()
                        print(haberler[0].title)
+                       print(haberler[0].webUrl)
                    }
                }
        
